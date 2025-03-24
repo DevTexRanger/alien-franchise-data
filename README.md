@@ -2,6 +2,8 @@
 
 Alien is my favorite film franchise. As such, I wanted to dive deep into the data behind this science-fiction horror masterclass of a series. The code is written for execution in Python but is formatted in Markdown for GitHub. If you want to jump straight to the observations, head to Section 5a. Thank you for reading. 
 
+---
+
 This notebook provides a complete workflow to analyze financial data for the Alien film franchise. It:
 - Loads CSV files containing film budgets and box office revenues for the Alien film franchise.
 - Adjusts monetary values for inflation using historical Consumer Price Index (CPI) data.
