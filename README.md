@@ -371,9 +371,8 @@ This notebook provided a complete workflow for analyzing film franchise financia
 - Visualizing comparisons using line and bar charts.
 
 Feel free to modify file paths, adjustment multipliers, or visual settings as needed.
-```
 
-### Sources of Film Data
+## Sources of Film Data
 
 - **Box Office Revenues & Production Budgets:**
   - **Box Office Mojo**  
@@ -394,7 +393,7 @@ Feel free to modify file paths, adjustment multipliers, or visual settings as ne
     `Estimated Profit = Box Office Revenue – Production Budget`  
     *(Uses the budget/revenue figures sourced from the above sites.)*
 
-### Sources of CPI Data for Inflation Adjustment
+## Sources of CPI Data for Inflation Adjustment
 
 - **U.S. Bureau of Labor Statistics (BLS) – CPI Data:**  
   [https://www.bls.gov/cpi/](https://www.bls.gov/cpi/)  
@@ -405,7 +404,7 @@ Feel free to modify file paths, adjustment multipliers, or visual settings as ne
     [https://www.usinflationcalculator.com/](https://www.usinflationcalculator.com/)  
     *(Helps in verifying or calculating specific inflation multipliers based on historical CPI values.)*
 
-### Additional Film Review Sources (for context)
+## Additional Film Review Sources (for context)
 
 - **Rotten Tomatoes:**  
   [https://www.rottentomatoes.com/](https://www.rottentomatoes.com/)  
@@ -422,8 +421,3 @@ These links cover the main data points used in the examples:
 - **Inflation CPI data:** Obtained from the U.S. Bureau of Labor Statistics and verified with online inflation calculators.
 
 Please reference these sources to gather up-to-date figures or verify the historical data used in the code examples.
-
-
-```python
-
-```
