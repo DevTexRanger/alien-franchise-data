@@ -1,5 +1,7 @@
 # Alien Film Franchise Financial Data Analysis
 
+Alien is my favorite film franchise. As such, I wanted to dive deep into the data behind this science-fiction horror masterclass of a series. The code is written for execution in Python but is formatted in Markdown for GitHub. If you want to jump straight to the observations, head to Section 5a. Thank you for reading. 
+
 This notebook provides a complete workflow to analyze financial data for the Alien film franchise. It:
 - Loads CSV files containing film budgets and box office revenues for the Alien film franchise.
 - Adjusts monetary values for inflation using historical Consumer Price Index (CPI) data.
@@ -300,17 +302,16 @@ Here is the raw data output gathered for this analysis (post-conversions):
 
 | Film Title                      | Year |  CPI  | Production Budget (USD) | Box Office Revenue (USD) | Estimated Profit (USD) | Adjusted Box Office Revenue (2025 USD) |
 |--------------------------------|------|-------|-------------------------|--------------------------|------------------------|----------------------------------------|
-| Alien                          | 1979 |  72.6 | 11000000               | 104930000               | 93930000              | 461200592                              |
-| Aliens                         | 1986 | 109.6 | 18500000               | 183200000               | 164700000             | 533386131                              |
-| Alien 3                        | 1992 | 140.3 | 50000000               | 158500000               | 108500000             | 360494298                              |
-| Alien Resurrection             | 1997 | 160.5 | 70000000               | 160700000               | 90700000              | 319497632                              |
-| Alien vs Predator              | 2004 | 188.9 | 60000000               | 172500000               | 112500000             | 291396241                              |
-| Aliens vs Predator Requiem     | 2007 | 207.3 | 40000000               | 128800000               | 88800000              | 198263772                              |
-| Prometheus                     | 2012 | 229.6 | 130000000              | 403400000               | 273400000             | 560648693                              |
-| Alien Covenant                 | 2017 | 245.1 | 97000000               | 240900000               | 143900000             | 313631946                              |
-| Alien Romulus                  | 2024 | 315.6 | 80000000               | 351000000               | 150000000             | 354892586                              |
+| Alien                          | 1979 | 72.6  | 11,000,000             | 104,930,000             | 93,930,000            | 461,200,592                            |
+| Aliens                         | 1986 | 109.6 | 18,500,000             | 183,200,000             | 164,700,000           | 533,386,131                            |
+| Alien 3                        | 1992 | 140.3 | 50,000,000             | 158,500,000             | 108,500,000           | 360,494,298                            |
+| Alien Resurrection             | 1997 | 160.5 | 70,000,000             | 160,700,000             | 90,700,000            | 319,497,632                            |
+| Alien vs Predator              | 2004 | 188.9 | 60,000,000             | 172,500,000             | 112,500,000           | 291,396,241                            |
+| Aliens vs Predator Requiem     | 2007 | 207.3 | 40,000,000             | 128,800,000             | 88,800,000            | 198,263,772                            |
+| Prometheus                     | 2012 | 229.6 | 130,000,000            | 403,400,000             | 273,400,000           | 560,648,693                            |
+| Alien Covenant                 | 2017 | 245.1 | 97,000,000             | 240,900,000             | 143,900,000           | 313,631,946                            |
+| Alien Romulus                  | 2024 | 315.6 | 80,000,000             | 351,000,000             | 150,000,000           | 354,892,586                            |
 | *(No Title)*                   | 2025 | 319.1 | *(N/A)*                | *(N/A)*                 | *(N/A)*               | *(N/A)*                                 |
-
 
 Key observations:
 
