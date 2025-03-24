@@ -294,10 +294,72 @@ compare_budget_profit()
 ![output_10_1](https://github.com/user-attachments/assets/4ee85fe8-fa7b-4fa6-aa0a-0da9e4f8a1e4)
 
     
+## 5a. Overall Box Office and Profit
+
+Here is the raw data output gathered for this analysis (post-conversions):
+
+| Film Title                      | Year |  CPI  | Production Budget (USD) | Box Office Revenue (USD) | Estimated Profit (USD) | Adjusted Box Office Revenue (2025 USD) |
+|--------------------------------|------|-------|-------------------------|--------------------------|------------------------|----------------------------------------|
+| Alien                          | 1979 |  72.6 | 11000000               | 104930000               | 93930000              | 461200592                              |
+| Aliens                         | 1986 | 109.6 | 18500000               | 183200000               | 164700000             | 533386131                              |
+| Alien 3                        | 1992 | 140.3 | 50000000               | 158500000               | 108500000             | 360494298                              |
+| Alien Resurrection             | 1997 | 160.5 | 70000000               | 160700000               | 90700000              | 319497632                              |
+| Alien vs Predator              | 2004 | 188.9 | 60000000               | 172500000               | 112500000             | 291396241                              |
+| Aliens vs Predator Requiem     | 2007 | 207.3 | 40000000               | 128800000               | 88800000              | 198263772                              |
+| Prometheus                     | 2012 | 229.6 | 130000000              | 403400000               | 273400000             | 560648693                              |
+| Alien Covenant                 | 2017 | 245.1 | 97000000               | 240900000               | 143900000             | 313631946                              |
+| Alien Romulus                  | 2024 | 315.6 | 80000000               | 351000000               | 150000000             | 354892586                              |
+| *(No Title)*                   | 2025 | 319.1 | *(N/A)*                | *(N/A)*                 | *(N/A)*               | *(N/A)*                                 |
 
 
+Key observations:
 
-```python
+- **Prometheus (2012)**  
+  - **Highest absolute box office** (\$403.4M) and **largest nominal profit** (\$273.4M).  
+  - After inflation adjustment, it also has the **highest box office** (\$560.6M) among all entries.
+
+- **Alien (1979)** and **Aliens (1986)**  
+  - Both started with **modest budgets** (under \$20M) yet earned large profits and stand out even more when adjusted for inflation.  
+  - **Alien** (1979): Adjusted box office of \$461.2M.  
+  - **Aliens** (1986): Adjusted box office of \$533.4M.  
+  - They have **excellent profit-to-budget ratios**, showing these two films gave the biggest “bang for the buck.”
+
+- **Mid-Era Films** (*Alien 3*, *Alien Resurrection*)  
+  - Larger nominal budgets than the first two films, but did not match their high profit margins.  
+  - Moderate success overall, though overshadowed by the standout performances of *Alien* and *Aliens* in inflation-adjusted terms.
+
+- **AvP Films** (*Alien vs Predator*, *Aliens vs Predator Requiem*)  
+  - Reasonable box office returns and profits, but comparatively lower than the mainline *Alien* films when adjusted for inflation.
+
+- **Recent Entries** (*Alien Covenant*, *Alien Romulus*)  
+  - Modern budgets and box office numbers appear large in nominal terms.  
+  - Once adjusted for inflation, they do not surpass *Prometheus* or the top adjusted figures of *Alien* or *Aliens*.  
+  - Still, they remain profitable and show healthy returns in absolute numbers.
+
+- **High Return on Investment for Early Films:**  
+   - *Alien* and *Aliens* had relatively small budgets yet generated huge profits for their time.  
+   - When adjusted to 2025 dollars, these classics demonstrate just how successful they were, even compared to modern blockbusters.
+
+- **Prometheus Leads in Raw Figures:**  
+   - In straightforward, non-adjusted dollars, *Prometheus* has the biggest box office take and largest profit.  
+   - It also tops the chart in adjusted box office revenue (\$560.6M).
+
+- **Alien Romulus Sits in the Middle:**  
+   - With an \$80M budget and \$351M box office, it makes a \$150M profit.  
+   - Adjusted to 2025 dollars (\$354.9M), it does well but doesn’t match the highest earners in the series.
+
+- **Inflation’s Impact:**  
+   - Adjusting box office to 2025 dollars reveals that older entries—especially *Alien* and *Aliens*—were even more significant hits than their nominal numbers suggest.  
+   - This highlights why comparing only raw, unadjusted totals can be misleading across different decades.
+
+---
+
+### Bottom Line
+- **Prometheus** is the top earner in both nominal and inflation-adjusted box office.  
+- **Alien** (1979) and **Aliens** (1986) remain the most cost‐effective successes, with excellent profit‐to‐budget ratios that become even more impressive once inflation is accounted for.  
+- **Alien Romulus** performs respectably but doesn’t surpass the franchise’s top performers when adjusted to 2025 dollars.
+
+
 ## 6. Conclusion
 
 This notebook provided a complete workflow for analyzing film franchise financial data:
