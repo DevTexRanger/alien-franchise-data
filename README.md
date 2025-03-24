@@ -1,6 +1,8 @@
-# Alien Film Franchise Financial Data Analysis
+> **Disclaimer:** This project is a fan-made data analysis for educational purposes. It is not affiliated with or endorsed by 20th Century Studios or any related entities.
 
-Alien is my favorite film franchise. As such, I wanted to dive deep into the data behind this science-fiction horror masterclass of a series. The code is written for execution in Python but is formatted in Markdown for GitHub. If you want to jump straight to the observations, head to Section 5a. Thank you for reading. 
+# Science Fiction Film Franchise Financial Data Analysis
+
+The code is written for execution in Python but is formatted in Markdown for GitHub. If you want to jump straight to the observations, head to Section 5a. Thank you for reading. 
 
 ---
 
